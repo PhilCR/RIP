@@ -12,13 +12,26 @@ package atividaderip;
  */
 public class Node {
     private int id;
+    private int[][] table;
     
-    public Node(int id){
-        
+    public Node(int id, int[][] table){
+        this.id = id;
+        this.table = table;
     }
     
     public void rtupdate(){
         
+    }
+    
+    public void printdt(){
+        System.out.println("Table of Node "+id);
+        System.out.println("------------------------");
+        for(int i=0; i<4; i++){
+            for(int j=0; j<4; j++){
+                System.out.print(table[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
     
 }

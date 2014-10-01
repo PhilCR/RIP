@@ -6,19 +6,20 @@
 
 package atividaderip;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Rodrigo
  */
-public class AtividadeRIP {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class MagicalLayer {
+    private ArrayList<Event> evlist;
+    
+    public MagicalLayer(){
+        evlist = new ArrayList<Event>();
     }
     
-    
-    
+    public void executeMagic(){
+        
+    }
 }
